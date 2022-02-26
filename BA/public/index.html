@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sumate a Baularte" />
+  <meta name="keywords" content="convocatoria, artistas, arte, galería online, sumate" />
+  <meta name="author" content="Catalina Heit, Milena Villamarín" />
+  <meta name="copyright" content="Baularte" />
+  <meta name="robots" content="index follow" />
+  <link rel="icon" href="img/icono.png" type="image/png">
+
+  <!--Meta para Facebook-->
+  <meta property="og:title" content="Baularte" />
+  <meta property="og:description" content="Sumate a Baularte" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image:secure_url" content="https://galeriabaularte.web.app/img/icono.png" />
+  <!--Meta para Twitter-->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Baularte" />
+  <meta property="twitter:description" content="Sumate a Baularte" />
+  <meta property="twitter:image" content="https://galeriabaularte.web.app/img/icono.png" />
+  <meta property="twitter:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&family=Neonderthaw&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>BaulArte</title>
+</head>
+
+<body>
+
+  <nav id="nav" class="nav-collapse">
+    <img src="./img/logoFinal.png" alt="">
+    <select name="Menu" onchange="changeFunc(value);" id="">
+      <option value="1">Inicio</option>
+      <option value="2">Sobre Baularte</option>
+      <option value="3"><a href="https://beacons.ai/galeria.baularte" target="_blank">Redes</a></option>
+      <option value="4">CONVOCATORIA</option>
+    </select>
+    <div class="menuBotones">
+      <button id="inicio">Inicio</button>
+      <button id="sobre">Sobre Baularte</button>
+      <button><a href="https://beacons.ai/galeria.baularte" target="_blank">Redes</a></button>
+      <button id="convocatoria">CONVOCATORIA</button>
+    </div>
+  </nav>
+  <section id='pag1' class="pag1">
+    <div class="leyenda">
+      <h1>GALERÍA <br><span class="baularte">BAULARTE<span></h1>
+      <h2>Arte en tus espacios</h2>
+    </div>
+    <video class='video' src="./video/histDesk.mp4" autoplay controls></video>
+    <video class='videoC' src="./video/histCel.mp4" autoplay controls></video>
+
+    <button class="mostraTalento"><a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSd1p2DVtY6JfJKfIu_wDpo9Wa7Si3pnaXNSd7l7GNGzMIb9pg/viewform?vc=0&c=0&w=1&flr=0"
+        target="_blank">¡Mostrá tu talento!</a> </button>
+    <!-- carousel -->
+
+
+
+    <div id="carousel">
+      <button id="prev"><i class="fas fa-chevron-left fa-2x"></i> </button>
+      <div class="hideLeft">
+        <img src="./img/carr4.png">
+      </div>
+
+
+      <div class="prev">
+        <img src="./img/carr1.png">
+      </div>
+
+      <div class="selected">
+        <img src="./img/carr3.png">
+      </div>
+
+      <div class="next">
+        <img src="./img/carr2.png">
+      </div>
+
+
+      <div class="hideRight">
+        <img src="./img/carr5.png">
+      </div>
+
+      <button id="next"><i class="fas fa-chevron-right fa-2x"></i> </button>
+
+    </div>
+
+    <!--end carousel-->
+    <img src="./img/preFoot.png" alt="" class="preFooter">
+    <img src="./img/preFootCelu.png" alt="" class="preFooterC">
+  </section>
+
+
+  <section id='pag2' class="pag2 oculto">
+    <div class="fondoGrisP2"><br><br><br>
+      <h2>Propósitos:</h2>
+      <p> Nuestra misión es brindarles un espacio a talentos emergentes de nuestra comunidad para darlos a conocer en el
+        mercado y potenciarlos a través de publicidad y promoción audiovisual.
+        Queremos que los amantes del arte vistan sus hogares con obras que los representen y apasionen. Por esta razón
+        apoyamos la creación de obras y generamos talleres creativos, para descubrir el artista que llevamos dentro
+        Consideramos que en un mundo devorado por la vorágine de la cotidianidad, el arte es el canal por excelencia
+        para expresar nuestras emociones.</p>
+
+      <h2>¿Por qué lo hacemos?</h2>
+      <p>Con ayuda todo es más fácil y con sinergia se llega más lejos
+        El arte es un canal fundamental de expresión de nuestras emociones
+        Decorar nuestros espacios como soñamos es fácil y posible
+        Cultivar la creatividad es fundamental para la vida</p>
+
+      <h2>Quienes somos</h2>
+      <p>“Soy Cata me gusta mucho la vida al aire libre, soy una enamorada del arte y del diseño de interiores. Me
+        inscribo en todo taller de arte que se me cruza (no me puedo contener). Disfruto relacionarme socialmente, y me
+        hago feliz mediante el crecimiento personal, espiritual y emocional”
+        “Soy Mile busco la felicidad en los pequeños detalles y dejo fluir la vida disfrutando cada paso que doy. Me
+        apasiona ayudar a las personas a encontrar su propósito y conectar con sus emociones. Amante del té y de la
+        cerveza. me encanta salir a caminar, la danza, un poco geek y amante de la lectura de economía, ciencia ficción
+        y espiritualidad”
+        Cata Lic. en Arquitectura y Artista de Acuarela y Cerámica y Mile Lic. en Comercio Exterior, apasionadas por el
+        arte y el diseño. </p>
+
+      <h2> Qué hacemos (aclaratoria de propósito)</h2>
+      <p> Generamos una red de artistas dando a conocer sus obras para su promoción y venta.
+        Coordinamos talleres y seminarios artísticos de pintura, cerámica, entre otras disciplinas.
+        Brindamos servicio de asesoría de decoración de espacios interiores y exteriores.
+      </p>
+      <h2>Como nace Baularte</h2>
+      <p> Baularte nace en tiempos de pandemia. El encierro en nuestros hogares nos llevó a desear hacer de esos
+        espacios más propios y amigables a través del arte. La soledad que nos trajo esta situación, nos hizo pensar que
+        para salir adelante es muy importante hacerlo desde ambientes colaborativos ayudándonos a potenciar nuestras
+        habilidades.
+        El arte es el nexo entre la interioridad y el afuera, tanto para quien lo realiza, como para quien lo aprecia.
+        Por eso, queremos que muchas más personas tengan acceso a todo lo que los artistas tienen para ofrecernos.</p>
+
+      <h1><a href="https://beacons.ai/galeria.baularte" target="_blank"> CONOCER MÁS</a></h1>
+
+
+
+    </div>
+  </section>
+  <section id='pag3' class="pag3 fondoGrisP3 oculto">
+    <img src="./img/imgConvocatoria.png" alt="">
+    <h1><a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSd1p2DVtY6JfJKfIu_wDpo9Wa7Si3pnaXNSd7l7GNGzMIb9pg/viewform?vc=0&c=0&w=1&flr=0"
+        target="_blank">SUMATE</a> </h1>
+
+  </section>
+  <footer>
+    <div class="col"> Encontranos <br>
+      <div><i class="fab fa-facebook-square fa-2x"></i> <i class="fab fa-linkedin fa-2x"></i> <i
+          class="fab fa-instagram-square fa-2x"></i></div>
+    </div>
+    <div class="col"><button class="sumar"><a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSd1p2DVtY6JfJKfIu_wDpo9Wa7Si3pnaXNSd7l7GNGzMIb9pg/viewform?vc=0&c=0&w=1&flr=0"
+          target="_blank">¿Te querés sumar?</a> </button>
+      <p>COPYRIGHT © 2021 BAUL ARTE.<br> TODOS LOS DERECHOS RESERVADOS.</p>
+    </div>
+    <div class="col">
+      <p><i class="fab fa-whatsapp"></i> +54 011-3617-4800</p>
+      <p><i class="far fa-envelope"></i> hola.baularte@gmail.com</p>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="main.js"></script>
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+</body>
+
+</html>
