@@ -7,17 +7,15 @@ html{
  min-height: 100vh;
 }
 body {
-  min-height: 100vh;
 
   display: flex;
   align-items: stretch;
   flex-direction: column;
   justify-content: flex-start;
   width: 100vw;
-
+  position: relative;
   background-size: cover;
   margin: 0;
-  padding: 0;
 
 
 }
@@ -145,12 +143,12 @@ box-sizing: border-box;
 }
 
 footer {
+
   height: 200px;
   display: flex;
   justify-content: space-around;
   align-content: center;
-  margin-bottom: 0;
-  position: static;
+  margin-top: auto;
   padding-top: 20px;
   width: 100%;
   box-sizing: border-box;
@@ -243,24 +241,25 @@ footer {
   top: 20em;
 }
 
-.pag2 {
+.pag2, .pag3{  
   display: flex;
   flex-wrap: wrap;
+  min-height: 100vh;
   justify-content: center;
   width:100vw;
-  background: #f9f9f9;
-  flex-direction: row;
+  background: url(./img/convocatoriaBg.png);
   margin-top: 10px;
   align-self: center;
 
 }
+
 .princ{
 display: flex;
 align-items: center;
 
 }
 .pag2 p{
- text-align: justify;
+ text-align: center;
 }
 
 .pag2 a{
@@ -277,6 +276,7 @@ align-items: center;
   height: 20vh;
   box-sizing: border-box;
   margin: 50px;
+
 }
 .top{
   margin-top: 5%;
@@ -377,6 +377,39 @@ top: 20%;
 }
 
 /* fin imagenes sobre */
+/* estilo imagenes de convocatoria */
+#convo{
+  position: absolute;
+  width: 300px;
+  left: 20%;
+
+}
+#proceso1{
+  width: 200px;
+}
+#proceso2{
+  width: 150px;
+ 
+}
+#proceso3{
+  width: 200px;
+}
+#proceso4{
+  width: 150px;
+}
+#proceso5{
+  width: 200px;
+}
+#check{
+  width: 200px;
+}
+#cEsc{
+  width: 200px;
+}
+#cajas{
+  width: 200px;
+}
+/* fin imagenes convocatoria */
 .fila{
   display: flex;
   flex-direction: column;
@@ -400,27 +433,13 @@ top: 20%;
 width: 100vw;
 
 }
-.fondoGrisP2 {
-  height: 100%;
-  width: 80vw;
-  background: #eeeeeec2;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 3vw;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.5px;
-  color: 333333;
-  box-sizing: border-box;
-}
+
 .filaCompleta{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 70vw;
+  text-align: center;
+  width: 100vw;
 }
 .nosotrasDiv{
   display: flex;
@@ -428,34 +447,10 @@ width: 100vw;
   justify-content: center;
 }
 
-.fondoGrisP2 h2 {
-  font-size: 25px;
-  color: #2e2e2e;
-}
-
-.fondoGrisP2 h1 {
-  font-size: 30px;
-}
 
 
 
-.pag3 {
-  display: flex;
-  justify-content: center;
-  width: 100vw;
-  background: url(./img/convocatoriaBg.png);
-  margin-top:50px;
-  align-self: center;
-  box-sizing: border-box;
-  text-align: justify;
-}
-.pag3 img {
-  max-height: 97vh;
-  max-width: 60vw;
-  margin-top:10px;
-  border-radius: 20px;
 
-}
 .filaCompleta img{
   width: 60%;
 }
@@ -475,17 +470,8 @@ width: 100vw;
   text-align: center;
   align-self: flex-end;
 }
-.pag3 h1 {
 
-  color: #AD7C9A
-}
-.pag3 h2{
-  align-self: flex-end;
-color: #AD7C9A;
-}
-#imgConvo{
- align-self: flex-start;
-}
+
 
   #saludo {
       align-self: flex-end;
@@ -718,24 +704,12 @@ display: none;
   width: 100vw;
   max-height: 70vh;
 }
-.fondoGrisP3{
-  max-height: 100%;
-}
-.pag3 img{
-  max-height: 97vh;
-  max-width: 80vw;
-  margin-bottom: 0;
-  margin-top: 40px;
-
-}
 
 
-.pag3 a{
-  font-size: 40px;
-  margin-top: 0;
-}
+
 footer{
   flex-direction: column;
+
 height: 40vh;
   padding: 30px;
   box-sizing: border-box;
