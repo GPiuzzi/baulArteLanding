@@ -1,0 +1,33 @@
+.filaSB {
+  display: flex;
+  flex-direction: column;
+}
+
+.sobreBaulArte {  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: url(./img/convocatoriaBg.png);
+    margin-top: 60px;
+    align-self: center;
+  }
+
+  .pag2 p{
+    text-align: center;
+   }
+   
+   .pag2 a{
+     color: #152D42;
+   }
+   .pag2 a:hover{
+     color: #1f405e;
+   }
+   
+
+#logoRosa {
+  width: 200px;
+}
+
+#superp {
+  width: 150px;
+}
