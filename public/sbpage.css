@@ -1,33 +1,82 @@
-.filaSB {
+img {
+  width: 135px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+p {
+  text-align: center;
+ }
+ 
+a:hover{
+   color: #1f405e;
+ }
+
+.f {
+  display: flex;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.f1 {
+  flex: 1;
+}
+
+.f2 {
+  flex: 1.5;
+}
+
+.w200 {
+  width: 200px;
+}
+
+.w250 {
+  width: 250px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.textos {
+  text-align: center;
+  padding: 25px;
+}
+
+.comboflexcentercolumn {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .sobreBaulArte {  
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: url(./img/convocatoriaBg.png);
-    margin-top: 60px;
+    background: url(./img/convocatoriaBg.png) center;
+    margin-top: 100px;
     align-self: center;
   }
 
-  .pag2 p{
-    text-align: center;
-   }
-   
-   .pag2 a{
-     color: #152D42;
-   }
-   .pag2 a:hover{
-     color: #1f405e;
-   }
-   
+  /* MEDIAQUERYS */
 
-#logoRosa {
-  width: 200px;
-}
+  @media only screen and (max-width: 768px) {
+    .f {
+      flex-direction: column;
+    }
 
-#superp {
-  width: 150px;
-}
+    .reverse {
+      flex-direction: column-reverse;
+    }
+  }
+
