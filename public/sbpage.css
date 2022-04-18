@@ -1,70 +1,8 @@
-img {
-  width: 135px;
-}
-
-h3 {
-  font-size: 32px;
-}
-
-p {
-  text-align: center;
- }
- 
-a:hover{
-   color: #1f405e;
- }
-
-.f {
-  display: flex;
-}
-
-.f-column {
-  flex-direction: column;
-}
-
-.center {
-  justify-content: center;
-  align-items: center;
-}
-
-.f1 {
-  flex: 1;
-}
-
-.f2 {
-  flex: 1.5;
-}
-
-.w200 {
-  width: 200px;
-}
-
-.w250 {
-  width: 250px;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.textos {
-  text-align: center;
-  padding: 25px;
-}
-
-.comboflexcentercolumn {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .sobreBaulArte {  
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     background: url(./img/convocatoriaBg.png) center;
-    margin-top: 100px;
     align-self: center;
   }
 

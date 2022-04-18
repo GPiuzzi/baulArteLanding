@@ -8,16 +8,88 @@ body {
   margin: 0;
   background: url(./img/Background.jpg);
 }
+img {
+  width: 135px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+p {
+  text-align: center;
+ }
+ 
+a:hover{
+   color: #1f405e;
+ }
+
+.f {
+  display: flex;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.f1 {
+  flex: 1;
+}
+
+.f2 {
+  flex: 1.5;
+}
+
+.w90 {
+  width: 90px;
+}
+
+.w200 {
+  width: 200px;
+}
+
+.w250 {
+  width: 250px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.textos {
+  text-align: center;
+  padding: 25px;
+}
+
+.comboflexcentercolumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  margin-top: 100px;
+}
 
 select{
   display: none;
 }
 
+#logo {
+  width: 200px;
+}
+
 nav {
   width: 100%;
-  height: 100px;
+  min-height: 100px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   position: fixed;
   flex-wrap: nowrap;
   background: #152d42da;
@@ -26,19 +98,15 @@ nav {
   z-index: 1;
 }
 
-nav img {
-width: 250px;
-margin-right: 40px;
-}
-
 nav button {
   color: #cecaca;
-  margin-right: 40px;
+  padding: 0 20px;
   letter-spacing: 2px;
   font-size: 25px;
   background: transparent;
   border: none;
 }
+
 
 nav button:hover {
   color: #eceaea;
@@ -120,94 +188,16 @@ align-items: center;
   margin-top: 5%;
 }
 
-.fila{
-text-align: center;
-
-}
-.fila p{
-  text-align: center;
-  font-weight: 400;
-  margin: 0px;
-  font-size: large;
-}
-
-/* estilo imagenes de convocatoria */
-#convo{
-  position: absolute;
-  width: 300px;
-  left: 20%;
-
-}
-#proceso1{
-  width: 200px;
-}
-#proceso2{
-  width: 150px;
- 
-}
-#proceso3{
-  width: 200px;
-}
-#proceso4{
-  width: 150px;
-}
-#proceso5{
-  width: 200px;
-}
-#check{
-  width: 200px;
-}
-#cEsc{
-  width: 200px;
-}
-#cajas{
-  width: 200px;
-}
-/* fin imagenes convocatoria */
-.fila{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-}
-
-.fila h3{
-  position: relative;    /* para poder posicionar el texto de forma absoluta */
-  display: inline-block; /* para que solo ocupe el ancho de la imagen */
-
-  text-transform: uppercase;
-  font-weight: bolder;
-  font-size: larger;
-  margin-bottom: 0;
-  text-align: center;
-
-
-}
 .nosotras img{
 width: 100vw;
-
 }
 
-.filaCompleta{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  width: 100vw;
-}
 .nosotrasDiv{
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-
-
-
-
-.filaCompleta img{
-  width: 60%;
-}
 .nosotrasDiv img{
   width: 80%;
 }
@@ -225,11 +215,6 @@ width: 100vw;
   align-self: flex-end;
 }
 
-
-
-  #saludo {
-      align-self: flex-end;
- }
 .mostraTalento {
   box-sizing: border-box;
   max-width: 350px;
@@ -316,31 +301,8 @@ width: 100vw;
 
 
 /* INICIO DE MEDIA QUERYS */
-/*  */
-@media (max-width: 1700px){
-  nav{
-    justify-content: center;
-
-  }
-}
 @media (max-width: 1200px){
-  div{
-    margin: 0;
-    padding: 0;
-  }
-nav{
-  justify-content:center;
-  align-items: center;
-  box-sizing: border-box;
 
-}
-
-nav img{
-  position: unset;
-  max-height: 100px;
-  max-width: 200px;
-  margin-right: 30px;
-}
 select {
   display: flex;
   align-self: center;
@@ -356,6 +318,8 @@ option{
 }
 .menuBotones{
   display: none;
+  transition: all 0.5s ease;
+  transform-origin : 0px 100%;
 }
 .video{
   display:none;
@@ -378,79 +342,11 @@ box-sizing: border-box;
 }
 
 
-
-#car {
- width: 100%;
-  margin: 0 auto;
-  position: center;
-  box-sizing: border-box;
-
-
-}
-
-#car li {
- 
-  padding-left: 50px;
-  padding-right: 50px;
- 
-}
-
-.carousel{
-  display: flex;
-  justify-content: center;
-
-}
-#car  .items {
-
-  position: absolute;
-}
-#car img{
-
-  width: 300px;
-  height: 281px;
-
-}
-#car li {
-  text-align: center;
-}
-
-#car  .main-pos {
-  margin-left: 0 !important;
-  padding: 0;
-  max-width: 300px;
-
-  /*background-image: url('https://dl.dropbox.com/u/32649907/imgs/shadow.png');*/
-}
-
-#car  .left-pos {
-display:none;
-}
-
-#car .back-pos {
-display: none;
-}
-
-#car .right-pos {
-  display:none;
-}
-
-#car  span {
-  max-width: 80%;
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  margin: 0 auto;
-  left: 0em;
-  top: 20em;
-}
 .princ{
   flex-wrap: wrap;
   justify-content: center;
 }
-.filaCompleta img{
-  align-self: center;
-  width: 100%;
-}
+
 .M{
   flex-direction: column-reverse;
 }
@@ -508,3 +404,78 @@ footer{
   text-align: center;
 }
 }
+
+
+  /* MENU HAMBURGUESA */
+
+  #menu_on{
+    display: none;
+    width:30px;
+    height: 20px;
+      position: absolute;
+      top: 40px;
+      right: 40px;
+    z-index: 2;
+  }
+  
+  #menu_on:hover {
+      cursor: pointer;
+  }
+   
+  #menu_on span{
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    display: block;
+    position: absolute;
+    background: #fff;
+    transition: all 0.25s ease; /* Propiedades a animar | Tiempo | Tipo animación*/
+    transform-origin : 0px 100%;
+  }
+   
+  #menu_on span:nth-child(2){
+    top: calc(50% - 2px);
+  }
+   
+  #menu_on span:nth-child(3){
+  bottom: 0;
+  }
+  
+  svg {
+      width: 20px;
+      fill: #FFF;
+  }
+  
+  svg:hover {
+      cursor: pointer;
+  }
+  
+  #menu_off {
+      display: none;
+      position: absolute;
+      top: 40px;
+      right: 40px;
+  }
+  
+  .menuBotones{
+      display: flex;
+    }
+  
+  /* MEDIAQUERYS */
+  
+  @media only screen and (max-width: 1000px) {
+      #menu_on{
+          display: inline-block;
+      }
+      .menuBotones{
+          display: none;
+          flex-direction: column;
+      }
+      nav {
+          flex-direction: column;
+      }
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+  }
