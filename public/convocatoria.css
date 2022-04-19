@@ -1,0 +1,72 @@
+:root {
+    --gris: #BCC1C7;
+}
+
+@media only screen and (max-width: 540px) {
+    .f {
+        flex-direction: column;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
+
+    #arrowimg {
+        flex-direction: row!important;
+        width: 80%;
+        margin: 0 auto;
+    }
+    #arrowimg img {
+        width: 60px;
+    }
+
+    .greybg {
+        background: rgba(188, 193, 199, .7);
+        margin: 100px 0;
+    }
+
+    .my50 {
+        margin: 50px 0;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) {
+    .saludo {
+        background: rgba(188, 193, 199, .7);
+        width: 70%;
+        margin: 200px auto 0;
+        border-radius: 12px;
+        padding: 25px;
+    }
+}
+
+@media only screen and (min-width: 1268px) {
+    .saludo {
+        background: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    .artistas {
+        margin: 250px auto;
+        width: 60%;
+    }
+
+    .bigImg {
+        width: 400px;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    .w90 {
+        width: 150px;
+    }
+
+    .greybg {
+        margin: 150px 0;
+    }
+}
+
