@@ -1,0 +1,20 @@
+.sobreBaulArte {  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: url(./img/convocatoriaBg.png) center;
+    align-self: center;
+  }
+
+  /* MEDIAQUERYS */
+
+  @media only screen and (max-width: 768px) {
+    .f {
+      flex-direction: column;
+    }
+
+    .reverse {
+      flex-direction: column-reverse;
+    }
+  }
+

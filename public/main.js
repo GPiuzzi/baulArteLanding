@@ -1,56 +1,3 @@
-let inicio = document.getElementById('inicio');
-let sobre = document.getElementById('sobre')
-let convo = document.getElementById('convocatoria')
-let p1 =  document.getElementById('pag1');
-let p2 = document.getElementById('pag2');
-let p3 = document.getElementById('pag3');
-
-inicio.addEventListener('click', function(){
-  p1.classList.remove("oculto");
-  p2.classList.add("oculto");
-  p3.classList.add("oculto");
-  
-})
-
-  sobre.addEventListener('click', function(){
-p1.classList.add("oculto");
-p2.classList.remove("oculto");
-p3.classList.add("oculto");
-
-  })
-function changeFunc(value){
-switch (value){
-  case "1": {
-    p1.classList.remove("oculto");
-    p2.classList.add("oculto");
-    p3.classList.add("oculto");
-    break;
-  }
-  case "2":{
-    p1.classList.add("oculto");
-    p2.classList.remove("oculto");
-    p3.classList.add("oculto");
-    break;
-  }
-case "3":{
-  window.open('https://beacons.ai/galeria.baularte' )
-  break;
-}
-case "4":{
-  p1.classList.add("oculto");
-  p2.classList.add("oculto");
-  p3.classList.remove("oculto");
-  break;
-}}
-
-
-  }
-  convo.addEventListener('click', function(){
-p1.classList.add("oculto");
-p2.classList.add("oculto");
-p3.classList.remove("oculto");
-
-  })
 //slideshow style interval
 var autoSwap = setInterval( swap,3500);
 
@@ -169,3 +116,26 @@ $('li').click(function() {
     }
   })
   
+// Menu de Hamburguesa
+
+const menuBotones = document.querySelector('.menuBotones')
+const menuOn = document.getElementById('menu_on')
+const menuOff = document.getElementById('menu_off')
+const navBar = document.getElementById('nav')
+
+menuOn.addEventListener('click', abrirMenuBotones)
+
+menuOff.addEventListener('click', cerrarMenuBotones)
+
+function abrirMenuBotones() {
+    menuBotones.style.display = 'flex'
+    menuOff.style.display = 'block'
+    menuOn.style.display = 'none'
+}
+
+function cerrarMenuBotones() {
+    menuOff.style.display = 'none'
+    menuOn.style.display = 'block'
+    menuBotones.style.display = 'none'
+}
+
