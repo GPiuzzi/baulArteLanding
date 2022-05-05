@@ -3,15 +3,11 @@
     height: 25em;
     margin: 0 auto;
     position: relative;
-  
-  
   }
   
   #car li {
-    width: 300px;
-    padding-left: 100px;
-    padding-right: 100px;
-    height: 281px;
+    width: 360px;
+    height: auto;
     background: transparent;
     display: inline-block;
     -webkit-transition: all .3s ease-in-out;
@@ -25,19 +21,19 @@
     position: absolute;
   }
   #car img{
-    width: 300px;
-    height: 281px;
+    width: 360px;
+    height: auto;
   }
   
   #car  .main-pos {
-    margin-left: 2em !important;
+    margin-left: 6em !important;
   
     /*background-image: url('https://dl.dropbox.com/u/32649907/imgs/shadow.png');*/
   }
   
   #car  .left-pos {
     opacity: .3;
-    margin-left: -20em !important;
+    margin-left: -18em !important;
   
     -webkit-transform: scale(.75);
     -moz-transform: scale(.75);
@@ -45,7 +41,7 @@
   }
   
   #car .back-pos {
-    margin-left: 2em !important;
+    margin-left: 7em !important;
     opacity: .05;
     -webkit-transform: scale(.5);
     -moz-transform: scale(.5);
@@ -54,7 +50,7 @@
   
   #car .right-pos {
     opacity: .3;
-    margin-left:  24em !important;
+    margin-left:  30em !important;
   
     -webkit-transform: scale(.75);
     -moz-transform: scale(.75);
