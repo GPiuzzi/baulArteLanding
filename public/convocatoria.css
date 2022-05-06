@@ -2,6 +2,14 @@
     --gris: #BCC1C7;
 }
 
+.mt {
+    margin-top: 50px;
+}
+
+.artistas {
+    margin: 75px 0;
+}
+
 @media only screen and (max-width: 540px) {
     .f {
         flex-direction: column;
@@ -16,14 +24,6 @@
         width: 80%;
         margin: 0 auto;
     }
-    #arrowimg img {
-        width: 60px;
-    }
-
-    .greybg {
-        background: rgba(188, 193, 199, .7);
-        margin: 100px 0;
-    }
 
     .my50 {
         margin: 50px 0;
@@ -31,25 +31,12 @@
     
 }
 
-@media only screen and (min-width: 768px) {
-    .saludo {
-        background: rgba(188, 193, 199, .7);
-        width: 70%;
-        margin: 200px auto 0;
-        border-radius: 12px;
-        padding: 25px;
-    }
-}
+
 
 @media only screen and (min-width: 1268px) {
-    .saludo {
-        background: none;
-        width: 100%;
-        padding: 0;
-    }
 
     .artistas {
-        margin: 250px auto;
+        margin: 100px auto;
         width: 60%;
     }
 
@@ -70,3 +57,25 @@
     }
 }
 
+body {
+    background: url(./img/wall.jpg) center;
+}
+
+.evenly {
+    justify-content: space-evenly;
+}
+
+footer a {
+    margin-left: 10px;
+}
+
+
+
+em {
+    padding: 0 2em;
+}
+
+.saludo {
+    text-align: left;
+    margin-top: 5em;
+}

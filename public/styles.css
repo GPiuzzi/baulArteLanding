@@ -6,7 +6,7 @@ a {
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
-  background: url(./img/Background.jpg);
+  background: url(./img/wall.jpg);
 }
 img {
   width: 135px;
@@ -14,10 +14,12 @@ img {
 
 h3 {
   font-size: 32px;
+  margin: 0;
 }
 
 p {
   text-align: center;
+  font-size: larger;
  }
  
 a:hover{
@@ -32,9 +34,22 @@ a:hover{
   flex-direction: column;
 }
 
+footer a {
+  margin-left: 10px;
+}
+
+
 .center {
   justify-content: center;
   align-items: center;
+}
+.centerstart {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.evenly {
+  justify-content: space-evenly!important;
 }
 
 .f1 {
@@ -54,16 +69,24 @@ a:hover{
 }
 
 .w250 {
-  width: 250px;
+  width: 400px;
 }
 
+.w66 {
+width: 66%;
+}
+
+.mt5 {
+ margin-top: 10em;
+}
 .w-full {
   width: 100%;
 }
 
+
 .textos {
   text-align: center;
-  padding: 25px;
+  
 }
 
 .comboflexcentercolumn {
@@ -71,6 +94,10 @@ a:hover{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.f-column-reverse {
+  flex-direction: column-reverse;
 }
 
 section {

@@ -1,171 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Sumate a Baularte" />
+    <meta
+      name="keywords"
+      content="convocatoria, artistas, arte, galería online, sumate"
+    />
+    <meta name="author" content="Catalina Heit, Milena Villamarín" />
+    <meta name="copyright" content="Baularte" />
+    <meta name="robots" content="index follow" />
+    <link rel="icon" href="img/icono.png" type="image/png" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Sumate a Baularte" />
-  <meta name="keywords" content="convocatoria, artistas, arte, galería online, sumate" />
-  <meta name="author" content="Catalina Heit, Milena Villamarín" />
-  <meta name="copyright" content="Baularte" />
-  <meta name="robots" content="index follow" />
-  <link rel="icon" href="img/icono.png" type="image/png">
+    <!--Meta para Facebook-->
+    <meta property="og:title" content="Baularte" />
+    <meta property="og:description" content="Sumate a Baularte" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image:secure_url"
+      content="https://galeriabaularte.web.app/img/icono.png"
+    />
+    <!--Meta para Twitter-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Baularte" />
+    <meta property="twitter:description" content="Sumate a Baularte" />
+    <meta
+      property="twitter:image"
+      content="https://galeriabaularte.web.app/img/icono.png"
+    />
+    <meta property="twitter:type" content="website" />
 
-  <!--Meta para Facebook-->
-  <meta property="og:title" content="Baularte" />
-  <meta property="og:description" content="Sumate a Baularte" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image:secure_url" content="https://galeriabaularte.web.app/img/icono.png" />
-  <!--Meta para Twitter-->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta property="twitter:title" content="Baularte" />
-  <meta property="twitter:description" content="Sumate a Baularte" />
-  <meta property="twitter:image" content="https://galeriabaularte.web.app/img/icono.png" />
-  <meta property="twitter:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&family=Neonderthaw&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="convocatoria.css" />
+    <title>BaulArte</title>
+  </head>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&family=Neonderthaw&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="convocatoria.css">
-  <title>BaulArte</title>
-</head>
-
-<body>
-
-  <nav id="nav" class="nav">
-    <img src="./img/Logo-Botonera.png" id="logo" alt="">
-    <div class="menuBotones">
-      <button id="inicio"><a href='index.html'>Inicio</a></button>
-      <button id="sobre"><a href='sobreBaularte.html'>Sobre Baularte</a></button>
-      <button><a href="https://beacons.ai/galeria.baularte" target="_blank">Redes</a></button>
-      <button id="convocatoria"><a href='convocatoria.html'>CONVOCATORIA</a></button>
-    </div>
-    <div id="menu_on">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-    <svg id="menu_off" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
-  </nav>
-
-  <section id='pag3' class="pag3">
-    <div class="f">
-      <div class="f1 f center">
-        <img src="./img/convocatoria/16.png" class="w250 bigImg" alt="">
+  <body>
+    <nav id="nav" class="nav">
+      <img src="./img/Logo-Botonera.png" id="logo" alt="" />
+      <div class="menuBotones">
+        <button id="inicio"><a href="index.html">Inicio</a></button>
+        <button id="sobre">
+          <a href="sobreBaularte.html">Sobre Baularte</a>
+        </button>
+        <button>
+          <a href="https://beacons.ai/galeria.baularte" target="_blank"
+            >Redes</a
+          >
+        </button>
+        <button id="convocatoria">
+          <a href="convocatoria.html">CONVOCATORIA</a>
+        </button>
       </div>
-      <div class="f1 textos">
-        <h3>Queridx artista</h3>
+      <div id="menu_on">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <svg
+        id="menu_off"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 320 512"
+      >
+        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+        <path
+          d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"
+        />
+      </svg>
+    </nav>
 
-        <p>Un gusto saludarte, somos Cata y Mile y como a vos, nos APASIONA el arte.<br /> Estamos liderando un proyecto
-          vinculado a las Artes Visuales y ¡Queremos proponerte que nos acopañes en esta aventura!</p>
+    <section id="pag3" class="pag3">
+      <div class="f">
+        <div class="f1 f center">
+          <img src="./img/convocatoria/16.png" class="w250 bigImg" alt="" />
+        </div>
+        <div class="f1 textos">
+          <h3 class="mt">Queridx artista</h3>
+
+          <p>
+            Un gusto saludarte, somos Cata y Mile y como a vos, nos APASIONA el
+            arte.
+            <br />
+            Estamos liderando un proyecto vinculado a las Artes Visuales y
+            ¡Queremos proponerte que nos acopañes en esta aventura!
+          </p>
+          <p>
+            Te contamos un poco de qué se trata, nos encontramos conformando una
+            COMUNIDAD artística a través de una Galería Virtual, nuestro
+            objetivo es vincular artistas con compradores para generarles mayor
+            reconocimiento dentro del mercado y ampliar las oportunidades de
+            venta de sus obras a precios accesibles.<br />Es decir, buscamos
+            democratizar el arte.
+          </p>
+        </div>
+      </div>
+
+      <div class="f reverse center">
+        <div class="f1 textos my50">
+          <h3>¿a qué apuntamos?</h3>
+
+          <p>
+            A ofrecer tus diseños impresos <br />
+            en alta calidad a la población <br />
+            argentina y -por qué no- al <br />
+            exterior también en una <br />
+            segunda etapa.
+          </p>
+        </div>
+        <div class="f1 f center" id="arrowimg">
+          <!-- <img src="./img/convocatoria/17.png" class="w90" alt="" />
+                <img src="./img/convocatoria/20.png" class="w90" alt="" />
+                <img src="./img/convocatoria/18.png" class="w90" alt="" />
+                <img src="./img/convocatoria/21.png" class="w90" alt="" />
+                <img src="./img/convocatoria/19.png" class="w90" alt="" /> -->
+          <img src="./img/Iconos-comunidad.png" class="w-full" alt="" />
+        </div>
+      </div>
+      <p class="artistas">
+        <em
+          >Buscamos artistas como vos que deseen formar parte de esta comunidad,
+          trabajando juntos para que las personas te conozcan y decoren sus
+          espacios con tus creaciones</em
+        >
+      </p>
+      <div class="f">
+        <div class="textos f1">
+          <h3>Entonces ¿cómo sería la propuesta?</h3>
+
+          <p>
+            QUeremos que vos te dediques a crear y nos compartas tus obras en
+            formato digital. Los derechos de autor son 100% tuyos, nosotras con
+            tu autorización manejaríamos los derechos de explotación. (Nuestro
+            equipo legal te dará soporte en caso de dudas).<br />
+          </p>
+          <p>
+            Del resto nos ocupamos nosotras,
+            <b
+              >marketing, redes, promoción, impresión, logística, envío, etc. Y
+              por cada VENTA</b
+            >
+            que tengamos de tu obra, <b>cobrás una COMISIÓN</b> mensual
+          </p>
+        </div>
+        <div class="f1">
+          <div class="f f-column center">
+            <img src="./img/conjunto2transparente.png" class="w-full" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="f reverse center">
+        <div class="f1">
+          <div class="f f-column center">
+            <img src="./img/Logos-pandemia.png" class="w-full" alt="" />
+          </div>
+        </div>
+        <div class="f1 textos">
+          <p>
+            Todo este tema de la PANDEMIA nos demostró que para salir adelante
+            es muy importante hacerlo
+            <b
+              >desde ambientes COLABORATIVOS donde cada uno ponga su granito de
+              arena. <br />
+              Con BAULARTE queremos acompañarte y que muchas más personas tengan
+              acceso a lo que hacés.
+            </b>
+          </p>
+        </div>
+      </div>
+      <p>
+        Si te resuena algo de lo que leiste y deseas unirte, contactanos para
+        que te ampliemos la información, nos conozcas, despejes dudas y si tenés
+        alguna propuesta adicional para SUMAR VALOR Y CREAR SINERGIAS,
+        <strong>¡Bienvenída Sea!</strong>
+      </p>
+      <div class="f centerstart">
+        <p class="saludo">Te mandamos un saludo y esperamos tu participación</p>
+        <img src="./img/convocatoria/28.png" class="w250" alt="Logo Baularte" />
+      </div>
+    </section>
+
+    <footer>
+      <div class="col evenly">
+        Encontranos <br />
+        <div>
+          <a href="https://www.facebook.com/galeria.baularte" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a> 
+           <a href="https://www.tiktok.com/@galeria.baularte"target="_blank"><i class="fab fa-tiktok fa-2x"></i></a>
+           <a href="https://www.instagram.com/galeria.baularte/?hl=es"target="_blank"> <i class="fab fa-instagram fa-2x"></i></a>
+           <a href="https://www.youtube.com/channel/UCoEXDGKiVMvxgb_Ep0F0GbA/featured"target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+        </div>
+      </div>
+      <div class="col">
+        <button class="sumar">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSd1p2DVtY6JfJKfIu_wDpo9Wa7Si3pnaXNSd7l7GNGzMIb9pg/viewform?vc=0&c=0&w=1&flr=0"
+            target="_blank"
+            >¿Te querés sumar?</a
+          >
+        </button>
         <p>
-          Te contamos un poco de qué se trata, nos encontramos conformando una COMUNIDAD artística a través de una
-          Galería Virtual, nuestro objetivo es vincular artistas con compradores para generarles mayor reconocimiento
-          dentro del mercado y ampliar las oportunidades
-          de venta de sus obras a precios accesibles.<br />Es decir, buscamos democratizar el arte.
+          COPYRIGHT © 2021 BAUL ARTE.<br />
+          TODOS LOS DERECHOS RESERVADOS.
         </p>
       </div>
-    </div>
-
-    <div class="f reverse">
-      <div class="f1 textos my50">
-        <h3>¿a qué apuntamos?</h3>
-
-        <p>A ofrecer tus diseños impresos en alta calidad a la población argentina y -por qué no- al exterior también en
-          una segunda etapa.</p>
+      <div class="col">
+        <p><i class="fab fa-whatsapp"></i> +54 011-3617-4800</p>
+        <p><i class="far fa-envelope"></i> hola.baularte@gmail.com</p>
       </div>
-      <div class="f1 f center" id="arrowimg">
-        <img src="./img/convocatoria/17.png" class="w90" alt="">
-        <img src="./img/convocatoria/20.png" class="w90" alt="">
-        <img src="./img/convocatoria/18.png" class="w90" alt="">
-        <img src="./img/convocatoria/21.png" class="w90" alt="">
-        <img src="./img/convocatoria/19.png" class="w90" alt="">
-      </div>
-    </div>
-    <p class="my50 artistas"><em>Buscamos artistas como vos que deseen formar parte de esta comunidad, trabajando juntos para que las personas
-        te conozcan y decoren sus espacios con tus creaciones</em></p>
-    <div class="f">
-      <div class="textos f1">
-        <h3>Entonces ¿cómo sería la propuesta?</h3>
+    </footer>
 
-        <p>QUeremos que vos te dediques a crear y nos compartas tus obras en formato digital. Los derechos de autor son
-          100% tuyos, nosotras con tu autorización manejaríamos los derechos de explotación. (Nuestro equipo legal te
-          dará soporte en caso de dudas).<br />
-        </p>
-        <p>Del resto nos ocupamos nosotras, <b>marketing, redes, promoción, impresión, logística, envío, etc. Y por cada
-            VENTA</b> que tengamos de tu obra, <b>cobrás una COMISIÓN</b> mensual</p>
-      </div>
-      <div class="f1">
-        <div class="f f-column center">
-          <div>
-            <img src="./img/convocatoria/22.png" alt="">
-            <img src="./img/convocatoria/24.png" alt="">
-          </div>
-          <div>
-            <img src="./img/convocatoria/23.png" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="f reverse">
-      <div class="f1">
-        <div class="f f-column center">
-          <div>
-            <img src="./img/convocatoria/26.png" alt="">
-          </div>
-          <div>
-            <img src="./img/convocatoria/25.png" alt="">
-            <img src="./img/convocatoria/27.png" alt="">
-          </div>
-        </div>
-      </div>
-      <div class="f1 textos greybg">
-        <p>Todo este tema de la PANDEMIA nos demostró que para salir adelante es muy importante hacerlo <b>desde
-            ambientes
-            COLABORATIVOS
-            donde cada uno ponga su granito de arena. <br /> Con BAULARTE queremos acompañarte y que muchas más personas
-            tengan acceso a lo que hacés.
-          </b></p>
-
-        <b>Si te resuena algo de lo que leiste y deseas unirte, </b>
-        <p>contactanos para que te ampliemos la información, nos conozcas, despejes dudas y si tenés alguna propuesta
-          adicional para SUMAR VALOR Y CREAR SINERGIAS, <strong>¡Bienvenída Sea!</strong></p>
-      </div>
-    </div>
-      <p class="saludo">Te mandamos un saludo y esperamos tu participación</p>
-    <div class="f f-column center">
-      <img src="./img/convocatoria/28.png" class="w250" alt="">
-    </div>
-  </section>
-
-  <footer>
-    <div class="col"> Encontranos <br>
-      <div>
-        <a href="https://www.facebook.com/Baularte-110743321269377" target="_blank"></a><i
-          class="fab fa-facebook-square fa-2x"></i></a> <a href="https://www.linkedin.com/company/baularte/"
-          target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-        <i class="fab fa-instagram-square fa-2x"><a href="https://www.instagram.com/galeria.baularte/?hl=es"></a></i>
-      </div>
-    </div>
-    <div class="col"><button class="sumar"><a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSd1p2DVtY6JfJKfIu_wDpo9Wa7Si3pnaXNSd7l7GNGzMIb9pg/viewform?vc=0&c=0&w=1&flr=0"
-          target="_blank">¿Te querés sumar?</a> </button>
-      <p>COPYRIGHT © 2021 BAUL ARTE.<br> TODOS LOS DERECHOS RESERVADOS.</p>
-    </div>
-    <div class="col">
-      <p><i class="fab fa-whatsapp"></i> +54 011-3617-4800</p>
-      <p><i class="far fa-envelope"></i> hola.baularte@gmail.com</p>
-    </div>
-  </footer>
-
-
-  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-  <script src="main.js"></script>
-</body>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
