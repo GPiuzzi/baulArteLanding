@@ -12,6 +12,10 @@ img {
   width: 135px;
 }
 
+i {
+  margin-top: 10px;
+}
+
 h3 {
   font-size: 32px;
   margin: 0;
@@ -127,11 +131,15 @@ nav {
 
 nav button {
   color: #cecaca;
-  padding: 0 20px;
+  padding: 7px 20px;
   letter-spacing: 2px;
   font-size: 25px;
   background: transparent;
   border: none;
+}
+
+nav button:last-child {
+padding: 7px 20px 14px;
 }
 
 
@@ -157,7 +165,6 @@ a:visited {
 .leyenda {
   display: flex;
   text-align: center;
-  margin-top: 60px;
   flex-direction: column;
   align-items: center;
   align-self: center;
@@ -181,8 +188,6 @@ box-sizing: border-box;
 }
 
 footer {
-
-  height: 200px;
   display: flex;
   justify-content: space-around;
   align-content: center;
@@ -198,6 +203,7 @@ footer {
 
 .col {
   width: 33vw;
+  margin: 5px auto!important;
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -309,7 +315,6 @@ width: 100vw;
   font-size: 50px;
   margin-bottom: 0;
   color: #152d42;
-  background-color: #ebebebad;
   border-radius: 20px;
 }
 
@@ -358,7 +363,7 @@ option{
  width: 100%;
 }
 .leyenda{
-  margin-top: 150px;
+
   align-self: center;
   justify-self: center;
 }
@@ -403,12 +408,12 @@ display: none;
 
 footer{
   flex-direction: column;
-  height: 40vh;
   width:100%;
 }
 
 .col{
   width:95vw;
+  margin: 5px auto!important;
   line-height: 15px;
   margin: 0;
   padding: 0;
@@ -505,4 +510,20 @@ footer{
   
   @media only screen and (max-width: 768px) {
   
+  }
+
+  /* container */ 
+  .container {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 25px;
+  }
+
+  @media only screen and (min-width: 1400px) {
+    .f {
+      margin-top: 40px;
+    }
+    .f:last-child {
+      margin: 40px 0;
+    }
   }
