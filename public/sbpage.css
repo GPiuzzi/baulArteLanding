@@ -2,7 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: url(./img/wall.jpg) center;
     align-self: center;
   }
 
@@ -18,3 +17,15 @@
     }
   }
 
+.items-start {
+  align-items: flex-start!important;
+}
+
+.textos {
+  padding: 25px;
+}
+
+.f {
+  align-items: center;
+  width: 100%;
+}
