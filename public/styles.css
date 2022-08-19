@@ -414,7 +414,7 @@ footer{
 .col{
   width:95vw;
   margin: 5px auto!important;
-  line-height: 15px;
+  /* line-height: 15px; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -520,9 +520,7 @@ footer{
   }
 
   @media only screen and (min-width: 1400px) {
-    .f {
-      margin-top: 40px;
-    }
+
     .f:last-child {
       margin: 40px 0;
     }
